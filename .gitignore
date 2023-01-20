@@ -105,3 +105,6 @@ dist
 
 # Arquivos compilados para distribuição
 dist/
+
+# Diretório ignorado - diversos
+ignore/
