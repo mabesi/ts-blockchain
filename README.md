@@ -1,2 +1,3 @@
-# web23
-Curso Web23 LuizTools
+# TS Blockchain
+
+A Typescript Blockchain prototype for educational purposes.
