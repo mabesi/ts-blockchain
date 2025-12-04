@@ -1,12 +1,12 @@
-# Protochain
+# TS Blockchain
 
 A blockchain prototype implemented in TypeScript.
 
 ## :speech_balloon: Description
 
-Protochain is a prototype of a blockchain system built with Node.js and TypeScript. It implements the core concepts of a blockchain, including block structure, chain validation, and a Proof of Work (PoW) consensus algorithm. It also provides a REST API to interact with the blockchain and a miner client to mine new blocks.
+TS Blockchain is a prototype of a blockchain system built with Node.js and TypeScript. It implements the core concepts of a blockchain, including block structure, chain validation, and a Proof of Work (PoW) consensus algorithm. It also provides a REST API to interact with the blockchain and a miner client to mine new blocks.
 
-![Protochain Banner](./banner.png)
+![TS Blockchain Banner](./banner.png)
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Protochain is a prototype of a blockchain system built with Node.js and TypeScri
 
 ## Features
 
-These are the key features of Protochain:
+These are the key features of TS Blockchain:
 
 - **Blockchain Logic**: Implements a linked list of blocks with cryptographic hashes.
 - **Proof of Work**: Includes a mining mechanism with adjustable difficulty.
@@ -69,7 +69,11 @@ $ npm install
 Create a `.env` file based on the `.env.example` file and adjust the values if necessary:
 
 ```bash
+BLOCKCHAIN_SERVER=http://localhost:3000/
+
 BLOCKCHAIN_PORT=3000
+
+MINER_WALLET=0x1234567890
 ```
 
 ### Usage
